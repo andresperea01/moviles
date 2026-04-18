@@ -50,16 +50,6 @@ lib/
 
 ---
 
-## ⚙️ Cómo ejecutar el proyecto
-
-1. Asegúrate de tener Flutter instalado (`flutter doctor`).
-2. Clona o abre el proyecto en tu editor favorito.
-3. Ejecuta `flutter pub get` para descargar dependencias.
-4. Conecta un emulador o dispositivo físico.
-5. Ejecuta:
-   ```bash
-   flutter run
-   ```
 
 ---
 
@@ -76,9 +66,3 @@ Para trabajar de manera profesional en este proyecto, se recomienda:
 
 ---
 
-## 📸 Evidencias solicitadas
-
-Deberás capturar las siguientes pantallas durante la ejecución:
-1. **Cronómetro**: Captura al iniciar, pausar y reiniciar el tiempo.
-2. **Future Screen**: Captura del estado "Cargando..." y del resultado final "Éxito".
-3. **Isolate Screen**: Captura del resultado tras la computación pesada y los mensajes correspondientes en la **consola de depuración**.
