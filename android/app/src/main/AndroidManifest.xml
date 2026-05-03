@@ -1,4 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- INTERNET: necesario en release para Firebase App Distribution, actualizaciones y futuras llamadas de red. -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:label="moviles3"
         android:name="${applicationName}"
