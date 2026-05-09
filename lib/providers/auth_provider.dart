@@ -56,8 +56,8 @@ class AuthProvider with ChangeNotifier {
 
       // Almacenamiento no sensible
       final prefs = await SharedPreferences.getInstance();
-      await prefs.setString('user_name', userName);
-      await prefs.setString('user_email', userEmail);
+      await prefs.setString('user_name', userName ?? 'Usuario');
+      await prefs.setString('user_email', userEmail ?? email);
       await prefs.setString('theme', 'light'); // Ejemplo de configuración
 
       _state = AuthState.success;
