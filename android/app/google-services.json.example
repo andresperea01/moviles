@@ -1,0 +1,24 @@
+{
+  "_comment": "Copie este archivo como google-services.json después de registrar la app en Firebase Console",
+  "project_info": {
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "YOUR_ANDROID_APP_ID",
+        "android_client_info": {
+          "package_name": "com.example.moviles3"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "YOUR_ANDROID_API_KEY"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -53,6 +53,39 @@ lib/
 
 ---
 
+## 🔥 Módulo Firebase — Universidades
+
+Taller de integración con **Cloud Firestore** (rama `feature/taller_firebase_universidades`).
+
+### Funcionalidades
+
+- CRUD sobre la colección `universidades` (nit, nombre, direccion, telefono, pagina_web).
+- Listado en **tiempo real** con `StreamBuilder` + `snapshots()`.
+- Formulario **Nueva Universidad** con validación de campos y URL.
+- Pantalla de **evidencia** con datos leídos en vivo desde Firestore.
+
+### Configuración
+
+Ver [docs/FIREBASE_SETUP.md](docs/FIREBASE_SETUP.md) y descripción técnica en [docs/EVIDENCIAS_TECNICAS.md](docs/EVIDENCIAS_TECNICAS.md).
+
+### Estructura del módulo
+
+```text
+lib/
+├── firebase_options.dart
+├── models/universidad.dart
+├── services/universidad_service.dart
+├── providers/universidad_provider.dart
+├── utils/universidad_validators.dart
+├── widgets/universidad_card.dart
+└── screens/
+    ├── universidades_list_screen.dart
+    ├── universidad_form_screen.dart
+    └── universidades_evidence_screen.dart
+```
+
+---
+
 ## 🔄 GitFlow (Propuesta)
 
 Para trabajar de manera profesional en este proyecto, se recomienda:
